@@ -1,0 +1,26 @@
+*pysquared.py*
+
+A python script that generates square thumbnails from all .jpg files in a specified directory.
+
+*Example and Usage*
+
+A directory 'images' container 3 jpg files:
+
+images/
+	1.jpg
+	2.jpg
+	3.jpg
+	
+Running the pysquared script will generated a square thumbnail for each which corresponds to the largest square than can be cropped from the image. The square is centred in width or height depending on which dimension is largest.
+
+@python pysquared.py ./images 128@
+
+This command will produce:
+
+images/
+	1.jpg
+	1-squared.jpg
+	2.jpg
+	2-squared.jpg
+	3.jpg
+	3-squared.jpg
