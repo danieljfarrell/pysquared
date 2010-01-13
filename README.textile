@@ -29,5 +29,5 @@ where the new files are 128px x 128px images.
  
 *Dependencies*
 
-The Python Imaging Library, "http://www.pythonware.com/products/pil/:http://www.pythonware.com/products/pil/
+The Python Imaging Library, "http://www.pythonware.com/products/pil":http://www.pythonware.com/products/pil
 
