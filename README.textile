@@ -4,6 +4,7 @@ A python script that generates square thumbnails from all .jpg files in a specif
 
 *Example and Usage*
 
+@python pysquared.py <directory> <pixels>@
 A directory 'images' container 3 jpg files:
 
 images/
